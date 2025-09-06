@@ -9,13 +9,13 @@ body {
     margin: 0 auto;
 }
 
-.header-wraper {
+.header-wrapper {
     padding-bottom: 16px;
     border-bottom: 1px solid #E2E8F0;
 
 }
 
-.header-top-wraper {
+.header-top-wrapper {
     margin-bottom: 12px;
 
     background-color: #1E293B;
@@ -60,7 +60,7 @@ body {
 
 .notice {
     color: #FFF;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
@@ -69,7 +69,7 @@ body {
 }
 
 
-.header-bot-wraper {
+.header-bot-wrapper {
     display: flex;
     align-items: flex-start;
     gap: 24px;
@@ -103,20 +103,20 @@ body {
 
 
 
-.header-bot-wraper-seach::placeholder {
+.header-bot-wrapper-search::placeholder {
 
     max-width: 734px;
 }
 
-.header-bot-wraper-seach-input {
+.header-bot-wrapper-search-input {
     width: 734px;
     padding: 8px 12px;
     border-right: none;
     border: 1px solid #CBD5E1;
-    border-radius: 4px 0px 0px 4px;
+    border-radius: 4px 0 0 4px;
 }
 
-.header-bot-wraper-seach {
+.header-bot-wrapper-search {
     display: flex;
 
     align-items: center;
@@ -128,7 +128,7 @@ input[type="text"] {
     width: 732px;
     color: #64748B;
 
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-size: 14px;
 
     font-weight: 400;
@@ -137,7 +137,7 @@ input[type="text"] {
 
 }
 
-.header-bot-btn-category-wraper {
+.header-bot-btn-category-wrapper {
     display: flex;
     align-items: flex-start;
     gap: 12px;
@@ -147,7 +147,7 @@ input[type="text"] {
 
 
 
-.header-bot-btn-seach {
+.header-bot-btn-search {
     color: #fff;
     font-size: 14px;
     font-weight: 500;
@@ -160,7 +160,7 @@ input[type="text"] {
     padding-top: 2px;
 }
 
-.header-bot-search-wraper {
+.header-bot-search-wrapper {
     display: flex;
     padding: 8px 12px;
     justify-content: center;
@@ -171,7 +171,7 @@ input[type="text"] {
     background: #3B82F6;
 }
 
-.advert_wraper {
+.advert_wrapper {
     margin-top: 32px;
     margin-bottom: 80px;
 }
@@ -184,7 +184,7 @@ input[type="text"] {
     color: #1E293B;
 }
 
-.advert_cards_wraper {
+.advert_cards_wrapper {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
